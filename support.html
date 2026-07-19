@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ShiftTally Support — Help &amp; FAQ</title>
+<meta name="description" content="Get help with ShiftTally, the shift and work hours tracker for iOS. FAQs and contact details.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Public+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#FAF8F2;--paper-deep:#F1EDE2;--ink:#1C2833;--ink-soft:#4A5A68;
+  --green:#1B66E0;--green-deep:#0E4DB5;--rule:#DDD6C6;--card:#FFFFFF;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Public Sans',-apple-system,BlinkMacSystemFont,sans-serif;background:var(--paper);color:var(--ink);line-height:1.65;-webkit-font-smoothing:antialiased}
+.wrap{max-width:760px;margin:0 auto;padding:0 24px}
+h1,h2{font-family:'Archivo Black',sans-serif;font-weight:400}
+header{border-bottom:2px solid var(--ink);background:var(--paper)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:64px;max-width:1040px;margin:0 auto;padding:0 24px}
+.logo{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--ink)}
+.logo span{font-family:'Archivo Black',sans-serif;font-size:1.15rem}
+.nav a.back{color:var(--ink-soft);text-decoration:none;font-size:.92rem;font-weight:600}
+.nav a.back:hover{color:var(--green-deep)}
+.page-head{padding:56px 0 36px;border-bottom:1px solid var(--rule)}
+.eyebrow{font-family:'IBM Plex Mono',monospace;font-size:.75rem;letter-spacing:.14em;text-transform:uppercase;color:var(--green-deep);font-weight:600;margin-bottom:12px}
+.page-head h1{font-size:clamp(1.9rem,4.5vw,2.6rem);margin-bottom:12px}
+.page-head p{color:var(--ink-soft);max-width:36rem}
+main{padding:44px 0 72px}
+.faq{border-top:2px solid var(--ink)}
+.faq details{border-bottom:1px solid var(--rule)}
+.faq summary{
+  cursor:pointer;padding:20px 8px;font-weight:700;font-size:1.02rem;
+  list-style:none;display:flex;justify-content:space-between;align-items:center;gap:16px;
+}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";font-family:'IBM Plex Mono',monospace;font-size:1.2rem;color:var(--green-deep);flex-shrink:0}
+.faq details[open] summary::after{content:"–"}
+.faq summary:focus-visible{outline:2px solid var(--green);outline-offset:3px}
+.faq .answer{padding:0 8px 22px;color:var(--ink-soft);max-width:40rem}
+.contact-card{
+  margin-top:48px;background:var(--card);border:2px solid var(--ink);border-radius:14px;
+  padding:32px;box-shadow:6px 6px 0 var(--paper-deep),6px 6px 0 1px var(--rule);
+}
+.contact-card h2{font-size:1.3rem;margin-bottom:10px}
+.contact-card p{color:var(--ink-soft);margin-bottom:18px}
+.btn{
+  display:inline-block;background:var(--green);color:#fff;padding:12px 22px;border-radius:8px;
+  text-decoration:none;font-weight:700;font-size:.95rem;border:2px solid var(--green);
+}
+.btn:hover,.btn:focus-visible{background:var(--green-deep);border-color:var(--green-deep)}
+.btn:focus-visible{outline:2px solid var(--green);outline-offset:3px}
+.contact-note{font-size:.85rem;color:var(--ink-soft);margin-top:14px}
+footer{border-top:1px solid var(--rule);padding:32px 0}
+.foot{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:14px;max-width:1040px;margin:0 auto;padding:0 24px}
+.foot a{color:var(--ink-soft);text-decoration:none;font-size:.88rem;font-weight:600;margin-left:20px}
+.foot a:hover{color:var(--green-deep)}
+.foot .copy{font-size:.82rem;color:var(--ink-soft)}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="nav">
+    <a class="logo" href="index.html" aria-label="ShiftTally home">
+      <img src="icon.png" width="30" height="30" alt="" style="border-radius:7px;display:block">
+      <span>ShiftTally</span>
+    </a>
+    <a class="back" href="index.html">← Back to ShiftTally</a>
+  </div>
+</header>
+
+<div class="page-head">
+  <div class="wrap">
+    <p class="eyebrow">Support</p>
+    <h1>How can we help?</h1>
+    <p>Answers to common questions about ShiftTally. Can't find what you need? Email us — we read everything.</p>
+  </div>
+</div>
+
+<main>
+  <div class="wrap">
+    <div class="faq">
+      <details open>
+        <summary>How do I log a shift?</summary>
+        <p class="answer">Tap the add button on the main screen, enter your start and end time, add a break if you took one, and save. Your shift appears in your log straight away with the pay calculated automatically.</p>
+      </details>
+      <details>
+        <summary>How do I set my hourly rate?</summary>
+        <p class="answer">Go to Settings and enter your hourly rate. Every shift you log is calculated using this rate. If your rate changes, update it in Settings — shifts you've already logged keep the rate they were logged with.</p>
+      </details>
+      <details>
+        <summary>Can I edit or delete a shift?</summary>
+        <p class="answer">Yes. Tap any shift in your log to open it, then edit the times or delete it. Your totals update automatically.</p>
+      </details>
+      <details>
+        <summary>Where is my data stored? Is it private?</summary>
+        <p class="answer">All of your shifts are stored locally on your device. ShiftTally has no accounts, no cloud sync and no ads, and it works completely offline. We can't see your data — see our <a href="privacy.html">Privacy Policy</a> for full details.</p>
+      </details>
+      <details>
+        <summary>Will my shifts transfer to a new phone?</summary>
+        <p class="answer">Because your data is stored on-device, it moves with a full device transfer or restore from an iPhone backup (iCloud or computer backup). Deleting the app deletes your shift data, so back up your device before removing the app.</p>
+      </details>
+      <details>
+        <summary>Does ShiftTally support overtime or multiple jobs?</summary>
+        <p class="answer">We're actively working on new features based on what users ask for — including export and multiple jobs. If there's something you need, email us and tell us. Requests genuinely shape what gets built next.</p>
+      </details>
+    </div>
+
+    <div class="contact-card" id="contact">
+      <h2>Still stuck? Get in touch</h2>
+      <p>Found a bug, have a feature request, or just need a hand? Email us and we'll get back to you as soon as we can — usually within 1–2 working days.</p>
+      <a class="btn" href="mailto:REPLACE-WITH-YOUR-EMAIL@example.com?subject=ShiftTally%20Support">Email support</a>
+      <p class="contact-note">Please include your iOS version and a short description of the issue — it helps us fix things faster.</p>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div class="foot">
+    <span class="copy">© 2026 ShiftTally. All rights reserved.</span>
+    <span>
+      <a href="index.html">Home</a>
+      <a href="privacy.html">Privacy Policy</a>
+    </span>
+  </div>
+</footer>
+
+</body>
+</html>
